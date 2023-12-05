@@ -2,7 +2,7 @@ version: '3'
 services:
   flask:
     build: .
-    container_name: flask
+    container_name: flask_nsql_project
     ports:
       - "5000:5000"
     volumes:
